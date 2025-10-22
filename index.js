@@ -4,7 +4,7 @@ import readlineSync from "readline-sync";
 
 const History = [];
 
-const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+const ai = new GoogleGenAI({ apiKey: "AIzaSyA5d8b_hhiGB9usVQsVT34d6wXEDDubOeI" });
 
 function sum({num1,num2}){
     return num1+num2;

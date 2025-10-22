@@ -4,7 +4,7 @@ import readlineAsync from 'readline-async';
 
 const History = [];
 
-const ai = new GoogleGenAI({apiKey:process.env.GEMINI_API_KEY});
+const ai = new GoogleGenAI({apiKey:"AIzaSyA5d8b_hhiGB9usVQsVT34d6wXEDDubOeI"});
 
 
 async function Chatting(userProblem) {
